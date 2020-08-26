@@ -1,0 +1,45 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add multiparty -S
+
+PATH: 
+  F:\BaiduPCS-Go-v3.5.2-windows-x64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Autodesk Shared\;D:\Java\jdk1.8.0_31\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;D:\SVN\bin;D:\Program Files\Git\cmd;C:\Users\123\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\123\AppData\Local\BypassRuntm;C:\Users\123\AppData\Roaming\npm;D:\Users\123\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\123\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\123\AppData\Local\Yarn\Cache\v6\npm-is-fullwidth-code-point-2.0.0-a3b30a5c4f199183167aaab93beefae3ddfb654f-integrity\node_modules\is-fullwidth-code-point\index.js' -> 'E:\桌面\三阶段\node-full-api\node_modules\ansi-align\node_modules\is-fullwidth-code-point\index.js'
+
+npm manifest: 
+  {
+    "name": "node-full-api",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "ejs": "~2.6.1",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1",
+      "nodemon": "^2.0.4"
+    },
+    "devDependencies": {
+      "mongoose": "^5.9.25"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
